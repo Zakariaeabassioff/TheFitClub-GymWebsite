@@ -23,16 +23,6 @@
     color: var(--orange);
 }
 
-.bars{
-    background-color: var(--appColor);
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-
-.bars>img{
-    width: 1.5rem;
-    height: 1.5rem;
-}
 
 @media screen and (max-width: 768px){ 
     .header>:nth-child(2){
@@ -46,4 +36,15 @@
         background-color: var(--appColor);
         padding: 2rem;
     }
+
+        .bars {
+            background-color: var(--appColor);
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+    
+        .bars>img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
 }

@@ -104,3 +104,18 @@
     top: 10rem;
     right: 0rem;
 }
+
+@media screen and (max-width: 768px){
+    .plans-header{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .plans-container{
+        flex-direction: column;
+    }
+
+    .plans-container>:nth-child(2){
+        transform: none;
+    }
+}

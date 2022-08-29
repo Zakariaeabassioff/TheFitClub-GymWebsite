@@ -22,3 +22,28 @@
 .header-menu>li:hover {
     color: var(--orange);
 }
+
+.bars{
+    background-color: var(--appColor);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.bars>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media screen and (max-width: 768px){ 
+    .header>:nth-child(2){
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+
+    .header-menu{
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+    }
+}

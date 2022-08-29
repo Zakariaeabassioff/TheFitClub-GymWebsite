@@ -55,3 +55,16 @@
     color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+    .join{
+        flex-direction: column;
+        padding: 0 2rem;
+        gap: 2rem;
+    }
+
+    .join-text{
+        font-size: xx-large;
+    }
+
+    
+}

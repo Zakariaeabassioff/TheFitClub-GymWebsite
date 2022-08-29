@@ -95,3 +95,34 @@
 .partners>img{
     width: 2.5rem;
 }
+
+
+@media screen and (max-width: 768px){
+    .reasons{
+        flex-direction: column;
+    }
+
+    .left-res{
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+
+    .left-res>:nth-child(1){
+        width: 7rem;
+        height: 17rem;
+    }
+
+    .left-res>:nth-child(2){
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .left-res>:nth-child(3){
+        width: 8rem;
+    }
+
+    .left-res>:nth-child(4){
+        display: none;
+    }
+
+}
